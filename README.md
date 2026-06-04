@@ -1,9 +1,5 @@
 # 🏦 Sistema Bancário Desktop em Python
 
-
-
-\
-
 Sistema bancário desktop desenvolvido em **Python** utilizando **Tkinter** para interface gráfica e armazenamento de dados em **JSON**.
 
 O projeto simula operações bancárias reais como criação de contas, depósitos, saques, transferências e consulta de extratos.
@@ -14,17 +10,23 @@ O projeto simula operações bancárias reais como criação de contas, depósit
 
 ## 🏠 Tela Principal
 
+![Tela Principal](screenshots/tela-principal.png)
+
 A tela principal exibe todas as contas cadastradas, seus titulares e respectivos saldos, permitindo acesso rápido às funcionalidades do sistema.
 
 ---
 
 ## 🔄 Transferência entre Contas
 
+![Transferência](screenshots/transferencia.png)
+
 Realização de transferências entre contas com atualização automática dos saldos e validação de dados.
 
 ---
 
 ## 📄 Extrato Bancário
+
+![Extrato](screenshots/extrato.png)
 
 Consulta detalhada do histórico de movimentações realizadas em cada conta.
 
