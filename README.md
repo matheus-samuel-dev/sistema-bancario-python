@@ -1,75 +1,118 @@
-# 🏦 Sistema Bancário Desktop
+# 🏦 Sistema Bancário Desktop em Python
 
-Sistema bancário desenvolvido em Python utilizando Tkinter e SQLite.
 
-O projeto permite criar contas, realizar depósitos, saques, transferências e consultar extratos através de uma interface gráfica moderna.
 
----
+\
 
-## 📸 Demonstração
+Sistema bancário desktop desenvolvido em **Python** utilizando **Tkinter** para interface gráfica e armazenamento de dados em **JSON**.
 
-![Tela Principal](screenshots/tela-principal.png)
+O projeto simula operações bancárias reais como criação de contas, depósitos, saques, transferências e consulta de extratos.
 
 ---
 
-## 🚀 Funcionalidades
+# 📸 Demonstração do Sistema
 
-### 👤 Contas
+## 🏠 Tela Principal
 
-- Criar conta
-- Excluir conta
-- Listar contas
+A tela principal exibe todas as contas cadastradas, seus titulares e respectivos saldos, permitindo acesso rápido às funcionalidades do sistema.
+
+---
+
+## 🔄 Transferência entre Contas
+
+Realização de transferências entre contas com atualização automática dos saldos e validação de dados.
+
+---
+
+## 📄 Extrato Bancário
+
+Consulta detalhada do histórico de movimentações realizadas em cada conta.
+
+---
+
+# 🚀 Funcionalidades
+
+### 👤 Gerenciamento de Contas
+
+* Criar novas contas bancárias
+* Excluir contas
+* Visualizar contas cadastradas
+* Atualização automática da tabela
 
 ### 💰 Operações Bancárias
 
-- Depósito
-- Saque
-- Consulta de saldo
-- Extrato
+* Depósito
+* Saque
+* Consulta de saldo
+* Extrato bancário
 
 ### 🔄 Transferências
 
-- Transferência entre contas
-- Atualização automática de saldo
-- Validação de saldo disponível
+* Transferência entre contas
+* Validação de saldo disponível
+* Atualização automática dos valores
 
-### 💾 Banco de Dados
+### 💾 Persistência de Dados
 
-- Persistência com SQLite
-- Armazenamento local
-- Consultas rápidas
-
----
-
-## 🛠 Tecnologias
-
-- Python
-- Tkinter
-- SQLite
-- SQL
-- Programação Orientada a Objetos
+* Salvamento automático em JSON
+* Recuperação dos dados ao iniciar o sistema
+* Histórico de movimentações
 
 ---
 
-## 📂 Estrutura
+# 🛠️ Tecnologias Utilizadas
 
-```bash
-app.py
-banco.py
-database/
-screenshots/
-README.md
+* Python
+* Tkinter
+* JSON
+* Programação Orientada a Objetos (POO)
+
+---
+
+# 📚 Conceitos Aplicados
+
+Este projeto demonstra conhecimentos em:
+
+* CRUD
+* Orientação a Objetos
+* Interfaces Gráficas Desktop
+* Manipulação de Arquivos JSON
+* Estruturas de Dados
+* Tratamento de Exceções
+* Regras de Negócio
+
+---
+
+# 📂 Estrutura do Projeto
+
+```text
+sistema-bancario-python/
+│
+├── app.py
+├── banco.py
+├── conta.py
+├── dados.json
+│
+├── screenshots/
+│   ├── tela-principal.png
+│   ├── transferencia.png
+│   └── extrato.png
+│
+├── .gitignore
+└── README.md
 ```
 
-## ⚙️ Instalação
+---
 
-Clone o projeto:
+# ⚙️ Como Executar
+
+Clone o repositório:
 
 ```bash
 git clone https://github.com/matheus-samuel-dev/sistema-bancario-python.git
 ```
 
-Entre na pasta:
+Acesse a pasta:
 
 ```bash
 cd sistema-bancario-python
@@ -81,20 +124,39 @@ Execute:
 python app.py
 ```
 
-## 📈 Próximas melhorias
+---
 
-- [ ] Sistema de Login
-- [ ] Cadastro de Usuários
-- [ ] Histórico de Transações
-- [ ] Dashboard Financeiro
-- [ ] Exportação PDF
-- [ ] Relatórios
+# 🎯 Próximas Melhorias
 
-## 👨‍💻 Desenvolvedor
+* [ ] Sistema de Login
+* [ ] Cadastro de Usuários
+* [ ] Dashboard Financeiro
+* [ ] Banco de Dados SQLite
+* [ ] Exportação de Relatórios PDF
+* [ ] Tema Escuro
+* [ ] Histórico Avançado de Transações
+* [ ] Controle de Permissões
 
-Matheus Samuel
+---
 
-🌐 Portfólio:
+# 👨‍💻 Desenvolvedor
+
+## Matheus Samuel
+
+Desenvolvedor Full Stack focado em desenvolvimento de aplicações, automação e criação de soluções utilizando Python, Java e tecnologias web.
+
+### 🌐 Portfólio
+
 https://matheus-samuel-dev.github.io/Portfolio/
 
-⭐ Se gostou do projeto deixe uma estrela.
+### 💼 LinkedIn
+
+https://www.linkedin.com/in/matheus-samuel-dev
+
+### 🐙 GitHub
+
+https://github.com/matheus-samuel-dev
+
+---
+
+⭐ Se este projeto foi útil ou interessante para você, considere deixar uma estrela no repositório.
