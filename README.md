@@ -10,7 +10,7 @@ O projeto simula operações bancárias reais como criação de contas, depósit
 
 ## 🏠 Tela Principal
 
-![Tela Principal](screenshots/tela-principal.png)
+![Tela Principal](screenshots/Tela%20Principal.png)
 
 A tela principal exibe todas as contas cadastradas, seus titulares e respectivos saldos, permitindo acesso rápido às funcionalidades do sistema.
 
@@ -18,7 +18,7 @@ A tela principal exibe todas as contas cadastradas, seus titulares e respectivos
 
 ## 🔄 Transferência entre Contas
 
-![Transferência](screenshots/transferencia.png)
+![Transferência](screenshots/Transferencia.png)
 
 Realização de transferências entre contas com atualização automática dos saldos e validação de dados.
 
@@ -26,7 +26,7 @@ Realização de transferências entre contas com atualização automática dos s
 
 ## 📄 Extrato Bancário
 
-![Extrato](screenshots/extrato.png)
+![Extrato](screenshots/Extrato.png)
 
 Consulta detalhada do histórico de movimentações realizadas em cada conta.
 
