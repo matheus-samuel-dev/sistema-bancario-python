@@ -15,18 +15,20 @@
         {
             "numero": 2,
             "titular": "Maria Silva",
-            "saldo": 500.0,
+            "saldo": 0.0,
             "extrato": [
                 "Conta criada",
-                "Depósito: +R$ 500.00"
+                "Depósito: +R$ 500.00",
+                "Transferência enviada: -R$ 500.00"
             ]
         },
         {
             "numero": 3,
             "titular": "João Santos",
-            "saldo": 500.0,
+            "saldo": 1000.0,
             "extrato": [
                 "Conta criada",
+                "Transferência recebida: +R$ 500.00",
                 "Transferência recebida: +R$ 500.00"
             ]
         }
