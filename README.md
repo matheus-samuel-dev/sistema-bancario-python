@@ -186,8 +186,3 @@ Desenvolvedor em constante evolução, apaixonado por tecnologia e desenvolvimen
 
 Sempre buscando novos desafios para aplicar conhecimentos, aprender novas tecnologias e construir soluções que gerem valor.
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/matheus-samuel-dev">LinkedIn</a>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/matheus-samuel-dev">GitHub</a>
-</p>
