@@ -169,12 +169,12 @@ sistema-bancario-python/
 
 ## 🚀 Melhorias Futuras
 
-* [ ] Persistência de dados com SQLite
-* [ ] Sistema de autenticação de usuários
-* [ ] Exportação de extratos
-* [ ] Relatórios financeiros
-* [ ] Testes automatizados
-* [ ] Interface aprimorada
+- [ ] Persistência de dados com SQLite
+- [ ] Sistema de autenticação de usuários
+- [ ] Geração de relatórios em PDF
+- [ ] Exportação de extratos para Excel
+- [ ] Testes automatizados
+- [ ] Melhorias na interface gráfica
 
 ---
 
