@@ -93,7 +93,7 @@ Durante o desenvolvimento foram praticados conceitos como:
 
 ### 🏠 Tela Principal
 
-<img src="screenshots/Tela principal.png">
+<img src="screenshots/Tela Principal.png">
 
 </td>
 
