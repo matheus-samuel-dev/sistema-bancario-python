@@ -1,19 +1,19 @@
 # 🏦 Sistema Bancário em Python
 
 <p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
+  &nbsp;
+  <img src="https://img.shields.io/badge/Tkinter-GUI-blue?style=for-the-badge">
+  &nbsp;
+  <img src="https://img.shields.io/badge/POO-Programação%20Orientada%20a%20Objetos-success?style=for-the-badge">
+</p>
 
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
-
-<img src="https://img.shields.io/badge/Tkinter-GUI-blue?style=for-the-badge">
-
-<img src="https://img.shields.io/badge/POO-Programação%20Orientada%20a%20Objetos-success?style=for-the-badge">
-
-<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white">
-
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white">
-
-<img src="https://img.shields.io/badge/Status-Concluído-blue?style=for-the-badge">
-
+<p align="center">
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white">
+  &nbsp;
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white">
+  &nbsp;
+  <img src="https://img.shields.io/badge/Status-Concluído-blue?style=for-the-badge">
 </p>
 
 <p align="center">
@@ -93,7 +93,7 @@ Durante o desenvolvimento foram praticados conceitos como:
 
 ### 🏠 Tela Principal
 
-<img src="screenshots/tela_principal.png">
+<img src="screenshots/tela-principal.png">
 
 </td>
 
@@ -101,7 +101,7 @@ Durante o desenvolvimento foram praticados conceitos como:
 
 ### 🔄 Transferência
 
-<img src="screenshots/transferencia_entre_contas.png">
+<img src="screenshots/transferencia.png">
 
 </td>
 
@@ -109,7 +109,7 @@ Durante o desenvolvimento foram praticados conceitos como:
 
 ### 📄 Extrato Bancário
 
-<img src="screenshots/extrato_bancario.png">
+<img src="screenshots/extrato.png">
 
 </td>
 
