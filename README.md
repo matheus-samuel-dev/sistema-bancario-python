@@ -93,7 +93,7 @@ Durante o desenvolvimento foram praticados conceitos como:
 
 ### 🏠 Tela Principal
 
-<img src="screenshots/tela-principal.png">
+<img src="screenshots/Tela-principal.png">
 
 </td>
 
@@ -101,7 +101,7 @@ Durante o desenvolvimento foram praticados conceitos como:
 
 ### 🔄 Transferência
 
-<img src="screenshots/transferencia.png">
+<img src="screenshots/Transferencia.png">
 
 </td>
 
@@ -109,7 +109,7 @@ Durante o desenvolvimento foram praticados conceitos como:
 
 ### 📄 Extrato Bancário
 
-<img src="screenshots/extrato.png">
+<img src="screenshots/Extrato.png">
 
 </td>
 
