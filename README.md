@@ -1,126 +1,138 @@
-# 🏦 Sistema Bancário Desktop em Python
+# 🏦 Sistema Bancário em Python
 
-Sistema bancário desktop desenvolvido em **Python** utilizando **Tkinter** para interface gráfica e armazenamento de dados em **JSON**.
+<p align="center">
 
-O projeto simula operações bancárias reais como criação de contas, depósitos, saques, transferências e consulta de extratos.
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
 
----
+<img src="https://img.shields.io/badge/Tkinter-GUI-blue?style=for-the-badge">
 
-# 📸 Demonstração do Sistema
+<img src="https://img.shields.io/badge/POO-Programação%20Orientada%20a%20Objetos-success?style=for-the-badge">
 
-## 🏠 Tela Principal
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white">
 
-![Tela Principal](screenshots/Tela%20Principal.png)
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white">
 
-A tela principal exibe todas as contas cadastradas, seus titulares e respectivos saldos, permitindo acesso rápido às funcionalidades do sistema.
+<img src="https://img.shields.io/badge/Status-Concluído-blue?style=for-the-badge">
 
----
+</p>
 
-## 🔄 Transferência entre Contas
+<p align="center">
+  <strong>Sistema bancário desktop desenvolvido em Python para simular operações financeiras e praticar conceitos de Programação Orientada a Objetos e Interfaces Gráficas.</strong>
+</p>
 
-![Transferência](screenshots/Transferencia.png)
-
-Realização de transferências entre contas com atualização automática dos saldos e validação de dados.
-
----
-
-## 📄 Extrato Bancário
-
-![Extrato](screenshots/Extrato.png)
-
-Consulta detalhada do histórico de movimentações realizadas em cada conta.
+<p align="center">
+  <a href="https://github.com/matheus-samuel-dev">GitHub</a>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/matheus-samuel-dev">LinkedIn</a>
+</p>
 
 ---
 
-# 🚀 Funcionalidades
+## 📖 Sobre o Projeto
 
-### 👤 Gerenciamento de Contas
+Este projeto foi desenvolvido com o objetivo de aplicar conceitos fundamentais de desenvolvimento de software utilizando Python.
 
-* Criar novas contas bancárias
-* Excluir contas
-* Visualizar contas cadastradas
-* Atualização automática da tabela
+A aplicação simula operações bancárias através de uma interface gráfica intuitiva, permitindo o gerenciamento de clientes e movimentações financeiras.
+
+Durante o desenvolvimento foram praticados conceitos como:
+
+* Programação Orientada a Objetos (POO)
+* Interface gráfica com Tkinter
+* Manipulação de dados
+* Organização de código
+* Boas práticas de programação
+* Tratamento de exceções
+
+---
+
+## ✨ Funcionalidades
+
+### 👤 Gerenciamento de Clientes
+
+* Cadastro de clientes
+* Consulta de informações
 
 ### 💰 Operações Bancárias
 
-* Depósito
-* Saque
+* Depósitos
+* Saques
+* Transferências entre contas
+
+### 📊 Controle Financeiro
+
 * Consulta de saldo
 * Extrato bancário
-
-### 🔄 Transferências
-
-* Transferência entre contas
-* Validação de saldo disponível
-* Atualização automática dos valores
-
-### 💾 Persistência de Dados
-
-* Salvamento automático em JSON
-* Recuperação dos dados ao iniciar o sistema
 * Histórico de movimentações
+* Registro das operações realizadas
 
 ---
 
-# 🛠️ Tecnologias Utilizadas
+## 🛠️ Tecnologias Utilizadas
+
+### Linguagem
 
 * Python
+
+### Interface Gráfica
+
 * Tkinter
-* JSON
-* Programação Orientada a Objetos (POO)
+
+### Ferramentas
+
+* Git
+* GitHub
 
 ---
 
-# 📚 Conceitos Aplicados
+## 📸 Demonstração do Sistema
 
-Este projeto demonstra conhecimentos em:
+<table>
+<tr>
 
-* CRUD
-* Orientação a Objetos
-* Interfaces Gráficas Desktop
-* Manipulação de Arquivos JSON
-* Estruturas de Dados
-* Tratamento de Exceções
-* Regras de Negócio
+<td width="33%">
+
+### 🏠 Tela Principal
+
+<img src="screenshots/tela_principal.png">
+
+</td>
+
+<td width="33%">
+
+### 🔄 Transferência
+
+<img src="screenshots/transferencia_entre_contas.png">
+
+</td>
+
+<td width="33%">
+
+### 📄 Extrato Bancário
+
+<img src="screenshots/extrato_bancario.png">
+
+</td>
+
+</tr>
+</table>
 
 ---
 
-# 📂 Estrutura do Projeto
+## 🚀 Como Executar
 
-```text
-sistema-bancario-python/
-│
-├── app.py
-├── banco.py
-├── conta.py
-├── dados.json
-│
-├── screenshots/
-│   ├── tela-principal.png
-│   ├── transferencia.png
-│   └── extrato.png
-│
-├── .gitignore
-└── README.md
-```
-
----
-
-# ⚙️ Como Executar
-
-Clone o repositório:
+### 1️⃣ Clone o repositório
 
 ```bash
 git clone https://github.com/matheus-samuel-dev/sistema-bancario-python.git
 ```
 
-Acesse a pasta:
+### 2️⃣ Acesse a pasta do projeto
 
 ```bash
 cd sistema-bancario-python
 ```
 
-Execute:
+### 3️⃣ Execute a aplicação
 
 ```bash
 python app.py
@@ -128,37 +140,54 @@ python app.py
 
 ---
 
-# 🎯 Próximas Melhorias
+## 📂 Estrutura do Projeto
 
-* [ ] Sistema de Login
-* [ ] Cadastro de Usuários
-* [ ] Dashboard Financeiro
-* [ ] Banco de Dados SQLite
-* [ ] Exportação de Relatórios PDF
-* [ ] Tema Escuro
-* [ ] Histórico Avançado de Transações
-* [ ] Controle de Permissões
-
----
-
-# 👨‍💻 Desenvolvedor
-
-## Matheus Samuel
-
-Desenvolvedor Full Stack focado em desenvolvimento de aplicações, automação e criação de soluções utilizando Python, Java e tecnologias web.
-
-### 🌐 Portfólio
-
-https://matheus-samuel-dev.github.io/Portfolio/
-
-### 💼 LinkedIn
-
-https://www.linkedin.com/in/matheus-samuel-dev
-
-### 🐙 GitHub
-
-https://github.com/matheus-samuel-dev
+```text
+sistema-bancario-python/
+│
+├── screenshots/
+│   ├── tela_principal.png
+│   ├── transferencia_entre_contas.png
+│   └── extrato_bancario.png
+│
+├── app.py
+├── README.md
+└── demais arquivos do projeto
+```
 
 ---
 
-⭐ Se este projeto foi útil ou interessante para você, considere deixar uma estrela no repositório.
+## 🎯 Objetivos do Projeto
+
+* Praticar desenvolvimento desktop com Python
+* Aplicar conceitos de Programação Orientada a Objetos
+* Simular operações bancárias reais
+* Aprimorar organização e arquitetura de software
+* Desenvolver interfaces gráficas utilizando Tkinter
+
+---
+
+## 🚀 Melhorias Futuras
+
+* [ ] Persistência de dados com SQLite
+* [ ] Sistema de autenticação de usuários
+* [ ] Exportação de extratos
+* [ ] Relatórios financeiros
+* [ ] Testes automatizados
+* [ ] Interface aprimorada
+
+---
+
+## 👨‍💻 Autor
+
+**Matheus Samuel**
+
+Desenvolvedor em constante evolução, apaixonado por tecnologia e desenvolvimento de software.
+
+Sempre buscando novos desafios para aplicar conhecimentos, aprender novas tecnologias e construir soluções que gerem valor.
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/matheus-samuel-dev">LinkedIn</a>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/matheus-samuel-dev">GitHub</a>
+</p>
