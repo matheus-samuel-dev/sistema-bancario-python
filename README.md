@@ -195,25 +195,13 @@ npm run build
 
 # 🔮 Próximas Melhorias
 
-* [ ] Adicionar backend com Spring Boot
-* [ ] Implementar banco de dados PostgreSQL
-* [ ] Criar API REST para gerenciamento de contas e transações
-* [ ] Implementar autenticação JWT
-* [ ] Persistir dados em banco de dados real
-* [ ] Adicionar recuperação de senha
-* [ ] Implementar confirmação de operações sensíveis
-* [ ] Criar dashboard financeiro com gráficos e indicadores
-* [ ] Desenvolver histórico avançado com filtros por período
-* [ ] Adicionar testes automatizados (Frontend e Backend)
-* [ ] Implementar modo escuro/claro
-* [ ] Melhorar acessibilidade da interface
-* [ ] Adicionar notificações em tempo real
-* [ ] Criar versão mobile com React Native
-* [ ] Gerar GIF demonstrativo para o README
-* [ ] Adicionar vídeo de apresentação do projeto
-* [ ] Integrar hospedagem completa Full Stack
-* [ ] Simular integração com PIX e instituições bancárias
-
+- [ ] Criar uma API backend para persistência real dos dados
+- [ ] Avaliar implementação do backend com Spring Boot ou Python/FastAPI
+- [ ] Implementar banco de dados PostgreSQL
+- [ ] Criar autenticação JWT
+- [ ] Adicionar testes automatizados
+- [ ] Criar dashboard financeiro com gráficos
+- [ ] Gerar GIF demonstrativo para o README
 
 ---
 
