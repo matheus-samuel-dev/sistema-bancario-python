@@ -56,13 +56,10 @@ export function AdminDashboard({
         <div className={styles.headerAside}>
           <div className={styles.sessionCard}>
             <strong>{adminSession.name}</strong>
+            
             <span>
-              Último acesso:{" "}
-              {adminSession.previousAccess
-                ? formatDateTime(adminSession.previousAccess)
-                : "primeiro acesso"}
+              Último acesso: {formatLongDateTime(adminSession.lastAccess)}
             </span>
-            <small>{formatLongDateTime(adminSession.lastAccess)}</small>
           </div>
 
           <button className={styles.logoutButton} type="button" onClick={onLogout}>
