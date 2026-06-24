@@ -1,322 +1,231 @@
-
-# 🏦 Sistema Bancário em Python
+# 🏦 VaultBank - Sistema Bancário Web
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
   &nbsp;
-  <img src="https://img.shields.io/badge/Tkinter-GUI-blue?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white">
   &nbsp;
-  <img src="https://img.shields.io/badge/POO-Programação%20Orientada%20a%20Objetos-success?style=for-the-badge">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+  &nbsp;
+  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white">
+  &nbsp;
+  <img src="https://img.shields.io/badge/Status-Concluído-success?style=for-the-badge">
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white">
-  &nbsp;
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white">
-  &nbsp;
-  <img src="https://img.shields.io/badge/Status-Concluído-blue?style=for-the-badge">
+  <strong>Simulação de um Internet Banking moderno desenvolvida para praticar conceitos de desenvolvimento web, regras de negócio bancárias e experiência do usuário.</strong>
 </p>
 
 <p align="center">
-  <strong>Sistema bancário desktop desenvolvido em Python para simular operações financeiras e praticar conceitos de Programação Orientada a Objetos e Interfaces Gráficas.</strong>
+  <a href="https://sistema-bancario-python.vercel.app">🚀 Acessar Projeto Online</a>
 </p>
 
 <p align="center">
   <a href="https://github.com/matheus-samuel-dev">GitHub</a>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://www.linkedin.com/in/matheus-samuel-dev">LinkedIn</a>
+  &nbsp;&nbsp;&nbsp;
+  <a href="https://linkedin.com/in/matheus-samuel-dev">LinkedIn</a>
+  &nbsp;&nbsp;&nbsp;
+  <a href="https://matheus-samuel-dev.github.io/Portfolio/">Portfólio</a>
 </p>
-=======
-# Sistema Bancário Web
 
-Versão web publicável do projeto original "Sistema Bancário em Python", recriada com React + Vite para deploy online e apresentação em portfólio.
+---
 
-O sistema desktop em Tkinter foi preservado na pasta `Sistema-Bancario-Tkinter/`. A raiz do repositório agora contém a aplicação web.
+# 📖 Sobre o Projeto
 
+O VaultBank é uma aplicação web inspirada na experiência de um internet banking moderno.
 
-## Visão geral
+O projeto surgiu a partir de uma versão desktop construída em Python e Tkinter e foi evoluído para uma aplicação web completa utilizando React e Vite, permitindo publicação online e uma experiência muito mais próxima de sistemas bancários reais.
 
+O sistema permite gerenciamento de contas, movimentações financeiras, transferências, PIX, extrato detalhado e uma área administrativa protegida.
 
-## 📖 Sobre o Projeto
+---
 
-Este projeto foi desenvolvido com o objetivo de aplicar conceitos fundamentais de desenvolvimento de software utilizando Python.
+# 🚀 Projeto Online
 
-A aplicação simula operações bancárias através de uma interface gráfica intuitiva, permitindo o gerenciamento de clientes e movimentações financeiras.
+Acesse a versão publicada:
 
-Durante o desenvolvimento foram praticados conceitos como:
+🔗 https://sistema-bancario-python.vercel.app
 
-* Programação Orientada a Objetos (POO)
-* Interface gráfica com Tkinter
-* Manipulação de dados
-* Organização de código
-* Boas práticas de programação
-* Tratamento de exceções
-=======
-Esta versão transforma o fluxo original de contas, depósito, saque, transferência e extrato em uma experiência web mais próxima de um internet banking real. Os dados ficam salvos em `localStorage`, sem necessidade de backend neste primeiro momento.
+---
 
-## Tecnologias usadas
+# 🛠️ Tecnologias Utilizadas
 
+### Front-end
 
-- React 18
-- Vite
-- CSS Modules
-- Lucide React
-- jsPDF
-- jspdf-autotable
-- LocalStorage para persistência
-- Vercel para deploy
+* React
+* Vite
+* JavaScript ES6+
 
+### Interface
 
-## ✨ Funcionalidades
+* CSS Modules
+* Lucide React
 
-### 👤 Gerenciamento de Clientes
+### Recursos
 
-* Cadastro de clientes
-* Consulta de informações
-=======
-## Estrutura da aplicação
+* LocalStorage
+* jsPDF
+* jspdf-autotable
 
-### Área pública
+### Deploy
 
-- Tela inicial limpa
-- Acessar conta
-- Criar conta
-- Login administrativo discreto
+* Vercel
 
-### Área do usuário comum
+---
 
+# ✨ Funcionalidades
 
-* Depósitos
-* Saques
-* Transferências entre contas
+## 👤 Área do Cliente
 
-### 📊 Controle Financeiro
-
+* Criação de conta bancária
+* Login com número da conta e senha
 * Consulta de saldo
-* Extrato bancário
-* Histórico de movimentações
-* Registro das operações realizadas
-=======
-- Dashboard com menu lateral
-- Início
-- Depósito
-- Saque
-- Transferência
-- Extrato
-- Minha conta
-- Sair
+* Depósito
+* Saque
+* Transferência entre contas
+* Cadastro de chave PIX
+* Pagamento via PIX
+* Histórico de transações
+* Extrato detalhado
+* Exportação de extrato em PDF
 
-### Área administrativa
+## 🛡️ Área Administrativa
 
-- Login administrativo protegido
-- Lista de contas criadas
-- Total de contas
-- Saldo total do sistema
-- Histórico geral de movimentações
-- Consulta por nome ou número da conta
+* Login administrativo
+* Consulta de usuários
+* Histórico global de movimentações
+* Visualização de contas cadastradas
+* Busca por nome ou número da conta
+* Controle geral do sistema
 
-## Funcionalidades
+## 📱 Interface
 
-- Criação de conta com senha
-- Login por número da conta
-- Persistência no `localStorage`
-- Depósito com validação
-- Saque com bloqueio para saldo insuficiente
-- Transferência com validação e confirmação
-- Extrato completo com:
-  - Data
-  - Tipo da operação
-  - Valor
-  - Descrição
-  - Saldo após operação
-- Exportação do extrato em PDF
-- Cadastro e uso demonstrativo de PIX
-- Histórico PIX
-- Mensagens claras de sucesso e erro
-- Layout responsivo para mobile, tablet e desktop
-
-## Regras de negócio aplicadas
-
-
-## 🛠️ Tecnologias Utilizadas
-
-### Linguagem
-
-* Python
-
-### Interface Gráfica
-
-* Tkinter
-
-### Ferramentas
-
-* Git
-* GitHub
+* Layout responsivo
+* Dashboard moderno
+* Feedback visual para operações
+* Navegação intuitiva
+* Experiência inspirada em internet banking
 
 ---
 
-## 📸 Demonstração do Sistema
+# 📸 Demonstração
 
-<table>
-<tr>
+| Tela Inicial                            | Dashboard                            |
+| --------------------------------------- | ------------------------------------ |
+| ![](./screenshots/Tela_inicial_att.png) | ![](./screenshots/Dashboard_att.png) |
 
-<td width="33%">
+| Transferência                            | Extrato                            |
+| ---------------------------------------- | ---------------------------------- |
+| ![](./screenshots/Transferencia_att.png) | ![](./screenshots/Extrato_att.png) |
 
-### 🏠 Tela Principal
-
-<img src="screenshots/Tela Principal.png">
-
-</td>
-
-<td width="33%">
-
-### 🔄 Transferência
-
-<img src="screenshots/Transferencia.png">
-
-</td>
-
-<td width="33%">
-
-### 📄 Extrato Bancário
-
-<img src="screenshots/Extrato.png">
-
-</td>
-
-</tr>
-</table>
+| Minha Conta                            | Painel Administrativo                            |
+| -------------------------------------- | ------------------------------------------------ |
+| ![](./screenshots/Minha_conta_att.png) | ![](./screenshots/Painel_administrativo_att.png) |
 
 ---
 
-## 🚀 Como Executar
+# 📋 Regras de Negócio
 
-### 1️⃣ Clone o repositório
-=======
-- Não permite depósito com valor zero ou negativo
-- Não permite saque maior que o saldo
-- Não permite transferência maior que o saldo
-- Não permite transferência para conta inexistente
-- Não permite transferência para a própria conta
-- Não permite pagamento PIX com saldo insuficiente
-- Registra toda movimentação no extrato
-- Atualiza o saldo automaticamente após cada operação
+* Não permite depósito com valor negativo
+* Não permite saque superior ao saldo
+* Não permite transferência para a própria conta
+* Não permite transferência para conta inexistente
+* Não permite PIX sem saldo suficiente
+* Registra automaticamente todas as operações
+* Atualiza o saldo em tempo real
+* Mantém histórico completo das movimentações
 
-## Como rodar localmente
+---
 
-1. Instale as dependências:
+# 📂 Estrutura do Projeto
+
+```text
+src/
+├── components/
+├── pages/
+├── services/
+├── data/
+├── utils/
+├── styles/
+└── assets/
+```
+
+---
+
+# 🚀 Como Executar Localmente
+
+### Clonar o repositório
+
+```bash
+git clone https://github.com/matheus-samuel-dev/sistema-bancario-python.git
+```
+
+### Instalar dependências
 
 ```bash
 npm install
 ```
 
-2. Rode o servidor de desenvolvimento:
->>>>>>> 7561943 (Imitando internet banking)
+### Executar o projeto
 
 ```bash
 npm run dev
 ```
 
-
-### 2️⃣ Acesse a pasta do projeto
-=======
-3. Gere a build de produção:
+### Gerar build
 
 ```bash
 npm run build
 ```
 
+---
 
-### 3️⃣ Execute a aplicação
-=======
-## Contas demo
+# 💡 Conceitos Aplicados
 
-- Conta `1` | Titular `Matheus Samuel` | Senha `1234`
-- Conta `2` | Titular `Maria Silva` | Senha `1234`
-- Conta `3` | Titular `João Santos` | Senha `1234`
+* Componentização
+* Gerenciamento de estado
+* Persistência local
+* Boas práticas de UI/UX
+* Responsividade
+* Regras de negócio
+* Organização de código
+* Estruturação de projetos Front-end
 
-## Acesso administrativo
+---
 
-Para testes da área administrativa:
+# 🔮 Próximas Melhorias
 
-- Usuário: `admin`
-- Senha: `admin123`
+* Backend com Spring Boot
+* PostgreSQL
+* API REST
+* Autenticação JWT
+* Persistência real dos dados
+* Dashboard financeiro avançado
+* Testes automatizados
 
-Essas credenciais ficam documentadas no repositório, mas não aparecem expostas na tela pública principal.
+---
 
-## Deploy na Vercel
+# 🖥️ Versão Original Desktop
 
-1. Suba este repositório para o GitHub.
-2. Importe o projeto na Vercel.
-3. A Vercel deve detectar automaticamente o preset `Vite`.
-4. Confirme os comandos:
-
-
-```bash
-Build Command: npm run build
-Output Directory: dist
-```
-
-5. Clique em deploy.
-
-O arquivo `vercel.json` já deixa essa configuração explícita.
-
-## Projeto original em Python
-
-Se quiser executar a versão desktop antiga, use os arquivos dentro de `Sistema-Bancario-Tkinter/`:
+A versão inicial desenvolvida em Python + Tkinter foi preservada para fins de estudo e evolução do projeto.
 
 ```bash
 cd Sistema-Bancario-Tkinter
 python app.py
 ```
 
-
 ---
 
-## 📂 Estrutura do Projeto
+# 👨‍💻 Autor
 
-```text
-sistema-bancario-python/
-│
-├── screenshots/
-│   ├── tela_principal.png
-│   ├── transferencia_entre_contas.png
-│   └── extrato_bancario.png
-│
-├── app.py
-├── README.md
-└── demais arquivos do projeto
-```
+## Matheus Samuel
 
----
+Desenvolvedor focado em Back-end com Java e Spring Boot, apaixonado por desenvolvimento de software e construção de soluções que unem tecnologia, experiência do usuário e boas práticas de programação.
 
-## 🎯 Objetivos do Projeto
+🔗 GitHub: https://github.com/matheus-samuel-dev
 
-* Praticar desenvolvimento desktop com Python
-* Aplicar conceitos de Programação Orientada a Objetos
-* Simular operações bancárias reais
-* Aprimorar organização e arquitetura de software
-* Desenvolver interfaces gráficas utilizando Tkinter
+🔗 LinkedIn: https://linkedin.com/in/matheus-samuel-dev
 
----
+🔗 Portfólio: https://matheus-samuel-dev.github.io/Portfolio/
 
-## 🚀 Melhorias Futuras
-
-- [x] Persistência de dados com SQLite
-- [ ] Sistema de autenticação de usuários
-- [ ] Geração de relatórios em PDF
-- [ ] Exportação de extratos para Excel
-- [ ] Testes automatizados
-- [ ] Melhorias na interface gráfica
-
----
-
-## 👨‍💻 Autor
-
-**Matheus Samuel**
-
-Desenvolvedor em constante evolução, apaixonado por tecnologia e desenvolvimento de software.
-
-Sempre buscando novos desafios para aplicar conhecimentos, aprender novas tecnologias e construir soluções que gerem valor.
-
-=======
+⭐ Se gostou do projeto, considere deixar uma estrela no repositório.
