@@ -1,0 +1,74 @@
+:root {
+  color-scheme: dark;
+  --color-background: #04111e;
+  --color-surface: #07121f;
+  --color-surface-soft: #0b1727;
+  --color-accent: #14b8a6;
+  --color-accent-soft: #89f2de;
+  --color-text: #f4fbfd;
+  --color-text-muted: #93aeb6;
+  --font-body: "Segoe UI Variable Text", "Trebuchet MS", sans-serif;
+  --font-display: "Bahnschrift SemiBold", "Trebuchet MS", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background:
+    radial-gradient(circle at top left, rgba(20, 184, 166, 0.1), transparent 20%),
+    radial-gradient(circle at bottom right, rgba(8, 145, 178, 0.12), transparent 18%),
+    linear-gradient(180deg, #04111e 0%, #061827 48%, #020913 100%);
+  color: var(--color-text);
+  font-family: var(--font-body);
+  text-rendering: optimizeLegibility;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+  background-size: 64px 64px;
+  mask-image: linear-gradient(180deg, rgba(0, 0, 0, 0.35), transparent 92%);
+  pointer-events: none;
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}
+
+button {
+  transition: transform 180ms ease, filter 180ms ease, background 180ms ease;
+}
+
+a {
+  color: inherit;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #6f8b95;
+}
+
+button:hover {
+  filter: brightness(1.03);
+}

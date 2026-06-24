@@ -1,0 +1,39 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.panel {
+  padding: 1.35rem;
+  border-radius: 1.6rem;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(7, 18, 31, 0.82);
+  transition: transform 180ms ease, border-color 180ms ease;
+}
+
+.panel:hover {
+  transform: translateY(-3px);
+  border-color: rgba(137, 242, 222, 0.22);
+}
+
+.header h3 {
+  margin-bottom: 0.35rem;
+  font-size: 1.12rem;
+}
+
+.header p {
+  color: var(--color-text-muted);
+}
+
+.chartArea {
+  width: 100%;
+  height: 21rem;
+  margin-top: 1rem;
+}
+
+@media (max-width: 980px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}

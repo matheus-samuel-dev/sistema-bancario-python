@@ -1,0 +1,67 @@
+.card {
+  padding: 1.3rem;
+  border-radius: 1.4rem;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(7, 18, 31, 0.78);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.04);
+  transition: transform 180ms ease, border-color 180ms ease;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  border-color: rgba(137, 242, 222, 0.22);
+}
+
+.header h3 {
+  margin-bottom: 0.35rem;
+  font-size: 1.1rem;
+}
+
+.header p {
+  color: var(--color-text-muted);
+  font-size: 0.95rem;
+}
+
+.form {
+  display: grid;
+  gap: 0.9rem;
+  margin-top: 1rem;
+}
+
+.field {
+  display: grid;
+  gap: 0.45rem;
+}
+
+.field span {
+  color: #d6e7ec;
+  font-size: 0.92rem;
+}
+
+.field input,
+.field textarea {
+  width: 100%;
+  padding: 0.9rem 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 0.95rem;
+  background: rgba(255, 255, 255, 0.03);
+  color: inherit;
+  resize: vertical;
+}
+
+.field input:focus,
+.field textarea:focus {
+  outline: none;
+  border-color: rgba(94, 234, 212, 0.58);
+  box-shadow: 0 0 0 4px rgba(13, 148, 136, 0.12);
+}
+
+.button {
+  padding: 0.95rem 1rem;
+  border: 0;
+  border-radius: 0.95rem;
+  background: linear-gradient(120deg, #0f766e, #14b8a6);
+  color: #effff9;
+  font-weight: 700;
+  cursor: pointer;
+}

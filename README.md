@@ -1,3 +1,4 @@
+
 # 🏦 Sistema Bancário em Python
 
 <p align="center">
@@ -25,8 +26,16 @@
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://www.linkedin.com/in/matheus-samuel-dev">LinkedIn</a>
 </p>
+=======
+# Sistema Bancário Web
 
----
+Versão web publicável do projeto original "Sistema Bancário em Python", recriada com React + Vite para deploy online e apresentação em portfólio.
+
+O sistema desktop em Tkinter foi preservado na pasta `Sistema-Bancario-Tkinter/`. A raiz do repositório agora contém a aplicação web.
+
+
+## Visão geral
+
 
 ## 📖 Sobre o Projeto
 
@@ -42,8 +51,21 @@ Durante o desenvolvimento foram praticados conceitos como:
 * Organização de código
 * Boas práticas de programação
 * Tratamento de exceções
+=======
+Esta versão transforma o fluxo original de contas, depósito, saque, transferência e extrato em uma experiência web mais próxima de um internet banking real. Os dados ficam salvos em `localStorage`, sem necessidade de backend neste primeiro momento.
 
----
+## Tecnologias usadas
+
+
+- React 18
+- Vite
+- CSS Modules
+- Lucide React
+- jsPDF
+- jspdf-autotable
+- LocalStorage para persistência
+- Vercel para deploy
+
 
 ## ✨ Funcionalidades
 
@@ -51,8 +73,18 @@ Durante o desenvolvimento foram praticados conceitos como:
 
 * Cadastro de clientes
 * Consulta de informações
+=======
+## Estrutura da aplicação
 
-### 💰 Operações Bancárias
+### Área pública
+
+- Tela inicial limpa
+- Acessar conta
+- Criar conta
+- Login administrativo discreto
+
+### Área do usuário comum
+
 
 * Depósitos
 * Saques
@@ -64,8 +96,47 @@ Durante o desenvolvimento foram praticados conceitos como:
 * Extrato bancário
 * Histórico de movimentações
 * Registro das operações realizadas
+=======
+- Dashboard com menu lateral
+- Início
+- Depósito
+- Saque
+- Transferência
+- Extrato
+- Minha conta
+- Sair
 
----
+### Área administrativa
+
+- Login administrativo protegido
+- Lista de contas criadas
+- Total de contas
+- Saldo total do sistema
+- Histórico geral de movimentações
+- Consulta por nome ou número da conta
+
+## Funcionalidades
+
+- Criação de conta com senha
+- Login por número da conta
+- Persistência no `localStorage`
+- Depósito com validação
+- Saque com bloqueio para saldo insuficiente
+- Transferência com validação e confirmação
+- Extrato completo com:
+  - Data
+  - Tipo da operação
+  - Valor
+  - Descrição
+  - Saldo após operação
+- Exportação do extrato em PDF
+- Cadastro e uso demonstrativo de PIX
+- Histórico PIX
+- Mensagens claras de sucesso e erro
+- Layout responsivo para mobile, tablet e desktop
+
+## Regras de negócio aplicadas
+
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -121,22 +192,84 @@ Durante o desenvolvimento foram praticados conceitos como:
 ## 🚀 Como Executar
 
 ### 1️⃣ Clone o repositório
+=======
+- Não permite depósito com valor zero ou negativo
+- Não permite saque maior que o saldo
+- Não permite transferência maior que o saldo
+- Não permite transferência para conta inexistente
+- Não permite transferência para a própria conta
+- Não permite pagamento PIX com saldo insuficiente
+- Registra toda movimentação no extrato
+- Atualiza o saldo automaticamente após cada operação
+
+## Como rodar localmente
+
+1. Instale as dependências:
 
 ```bash
-git clone https://github.com/matheus-samuel-dev/sistema-bancario-python.git
+npm install
 ```
+
+2. Rode o servidor de desenvolvimento:
+>>>>>>> 7561943 (Imitando internet banking)
+
+```bash
+npm run dev
+```
+
 
 ### 2️⃣ Acesse a pasta do projeto
+=======
+3. Gere a build de produção:
 
 ```bash
-cd sistema-bancario-python
+npm run build
 ```
+
 
 ### 3️⃣ Execute a aplicação
+=======
+## Contas demo
+
+- Conta `1` | Titular `Matheus Samuel` | Senha `1234`
+- Conta `2` | Titular `Maria Silva` | Senha `1234`
+- Conta `3` | Titular `João Santos` | Senha `1234`
+
+## Acesso administrativo
+
+Para testes da área administrativa:
+
+- Usuário: `admin`
+- Senha: `admin123`
+
+Essas credenciais ficam documentadas no repositório, mas não aparecem expostas na tela pública principal.
+
+## Deploy na Vercel
+
+1. Suba este repositório para o GitHub.
+2. Importe o projeto na Vercel.
+3. A Vercel deve detectar automaticamente o preset `Vite`.
+4. Confirme os comandos:
+
 
 ```bash
+Build Command: npm run build
+Output Directory: dist
+```
+
+5. Clique em deploy.
+
+O arquivo `vercel.json` já deixa essa configuração explícita.
+
+## Projeto original em Python
+
+Se quiser executar a versão desktop antiga, use os arquivos dentro de `Sistema-Bancario-Tkinter/`:
+
+```bash
+cd Sistema-Bancario-Tkinter
 python app.py
 ```
+
 
 ---
 
@@ -186,3 +319,4 @@ Desenvolvedor em constante evolução, apaixonado por tecnologia e desenvolvimen
 
 Sempre buscando novos desafios para aplicar conhecimentos, aprender novas tecnologias e construir soluções que gerem valor.
 
+=======
