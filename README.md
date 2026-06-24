@@ -228,4 +228,6 @@ Desenvolvedor focado em Back-end com Java e Spring Boot, apaixonado por desenvol
 
 🔗 Portfólio: https://matheus-samuel-dev.github.io/Portfolio/
 
+---
+
 ⭐ Se gostou do projeto, considere deixar uma estrela no repositório.
