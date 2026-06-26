@@ -17,6 +17,7 @@
 
 html {
   scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
 }
 
 body {
@@ -47,6 +48,13 @@ button,
 input,
 textarea {
   font: inherit;
+}
+
+input,
+select,
+textarea,
+button {
+  touch-action: manipulation;
 }
 
 button {

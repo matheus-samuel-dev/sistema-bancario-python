@@ -292,8 +292,8 @@ export function Dashboard({
                   <div>
                     <dt>Último acesso</dt>
                     <dd>
-                      {currentAccount.lastAccess
-                        ? formatDateTime(currentAccount.lastAccess)
+                      {currentAccount.previousAccess
+                        ? formatDateTime(currentAccount.previousAccess)
                         : "Sem registro"}
                     </dd>
                   </div>

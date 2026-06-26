@@ -47,6 +47,12 @@ Acesse a versão publicada:
 🔗 https://sistema-bancario-python.vercel.app
 
 ---
+=======
+# Sistema Bancário Web
+
+Versão web do projeto original em Python + Tkinter, recriada com React e Vite para publicação online e apresentação em portfólio.
+
+O projeto desktop original foi preservado na pasta `Sistema-Bancario-Tkinter/`. A aplicação web está na raiz deste repositório.
 
 # 🛠️ Tecnologias Utilizadas
 
@@ -97,6 +103,15 @@ Acesse a versão publicada:
 * Visualização de contas cadastradas
 * Busca por nome ou número da conta
 * Controle geral do sistema
+=======
+- React 18
+- Vite
+- CSS Modules
+- Lucide React
+- Recharts
+- jsPDF
+- jspdf-autotable
+- LocalStorage
 
 ## 📱 Interface
 
@@ -134,6 +149,28 @@ Acesse a versão publicada:
 * Registra automaticamente todas as operações
 * Atualiza o saldo em tempo real
 * Mantém histórico completo das movimentações
+=======
+- Tela pública com acesso à conta, criação de conta e login administrativo
+- Dashboard do usuário com saldo, atalhos e últimas movimentações
+- Depósito, saque e transferência entre contas
+- Extrato com data, tipo, valor, descrição e saldo após cada operação
+- Exportação do extrato em PDF
+- Módulo demonstrativo de PIX
+- Área administrativa com resumo geral, lista de contas e histórico global
+- Feedback visual com mensagens de sucesso e erro
+- Responsividade para mobile, tablet e desktop
+- Favicon e manifesto configurados para navegador e instalação em dispositivos
+
+## Regras de negócio
+
+- Não permite depósito com valor zero ou negativo
+- Não permite saque maior que o saldo disponível
+- Não permite transferência maior que o saldo disponível
+- Não permite transferência para conta inexistente
+- Não permite transferência para a própria conta
+- Registra todas as movimentações no extrato
+- Atualiza o saldo automaticamente após cada operação
+- Persiste os dados no `localStorage`
 
 ---
 
@@ -173,6 +210,13 @@ npm run dev
 ```
 
 ### Gerar build
+=======
+```bash
+npm install
+npm run dev
+```
+
+Para gerar a build de produção:
 
 ```bash
 npm run build
@@ -208,6 +252,33 @@ npm run build
 # 🖥️ Versão Original Desktop
 
 A versão inicial desenvolvida em Python + Tkinter foi preservada para fins de estudo e evolução do projeto.
+=======
+## Deploy na Vercel
+
+1. Envie o repositório para o GitHub.
+2. Importe o projeto na Vercel.
+3. Use o preset `Vite`.
+4. Confirme as configurações:
+
+```bash
+Build Command: npm run build
+Output Directory: dist
+```
+
+5. Finalize o deploy.
+
+## Contas de demonstração
+
+- Conta `1` | Matheus Samuel | Senha `1234`
+- Conta `2` | Maria Silva | Senha `1234`
+- Conta `3` | João Santos | Senha `1234`
+
+## Acesso administrativo
+
+- Usuário: `admin`
+- Senha: `admin123`
+
+## Projeto original
 
 ```bash
 cd Sistema-Bancario-Tkinter
@@ -231,3 +302,4 @@ Desenvolvedor focado em Back-end com Java e Spring Boot, apaixonado por desenvol
 ---
 
 ⭐ Se gostou do projeto, considere deixar uma estrela no repositório.
+

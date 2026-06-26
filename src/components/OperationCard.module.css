@@ -41,12 +41,13 @@
 .field input,
 .field textarea {
   width: 100%;
-  padding: 0.9rem 1rem;
+  padding: 0.95rem 1rem;
   border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 0.95rem;
   background: rgba(255, 255, 255, 0.03);
   color: inherit;
   resize: vertical;
+  font-size: 1rem;
 }
 
 .field input:focus,
@@ -57,6 +58,8 @@
 }
 
 .button {
+  width: 100%;
+  min-height: 3rem;
   padding: 0.95rem 1rem;
   border: 0;
   border-radius: 0.95rem;
@@ -64,4 +67,27 @@
   color: #effff9;
   font-weight: 700;
   cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .card {
+    padding: 1rem;
+    border-radius: 1.1rem;
+  }
+
+  .header h3 {
+    font-size: 1rem;
+  }
+
+  .header p {
+    font-size: 0.9rem;
+  }
+
+  .form {
+    gap: 0.75rem;
+  }
+
+  .field span {
+    font-size: 0.95rem;
+  }
 }

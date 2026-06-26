@@ -1,5 +1,5 @@
 .wrapper {
-  padding: 1.4rem;
+  padding: 1.2rem;
   border-radius: 1.6rem;
   border: 1px solid rgba(255, 255, 255, 0.08);
   background: rgba(7, 18, 31, 0.82);
@@ -109,10 +109,10 @@
 
 .mobileItem {
   display: grid;
-  gap: 0.55rem;
-  padding: 0.95rem 1rem;
-  border-radius: 1rem;
-  background: rgba(255, 255, 255, 0.03);
+  gap: 0.65rem;
+  padding: 0.95rem;
+  border-radius: 1.05rem;
+  background: rgba(255, 255, 255, 0.035);
   border: 1px solid rgba(255, 255, 255, 0.05);
 }
 
@@ -137,6 +137,25 @@
     align-items: stretch;
   }
 
+  .wrapper {
+    padding: 1rem;
+    border-radius: 1.25rem;
+  }
+
+  .heading h3 {
+    font-size: 1.05rem;
+  }
+
+  .heading p {
+    font-size: 0.9rem;
+  }
+
+  .exportButton {
+    width: 100%;
+    min-height: 2.95rem;
+    justify-content: center;
+  }
+
   .table {
     display: none;
   }
@@ -144,5 +163,9 @@
   .mobileList {
     display: grid;
     gap: 0.75rem;
+  }
+
+  .mobileItem p {
+    font-size: 0.95rem;
   }
 }

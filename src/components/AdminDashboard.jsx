@@ -153,6 +153,22 @@ export function AdminDashboard({
                 ))}
               </tbody>
             </table>
+
+            <div className={styles.mobileList}>
+              {filteredAccounts.map((account) => (
+                <article key={account.number} className={styles.mobileCard}>
+                  <strong>Conta {account.number}</strong>
+                  <span className={styles.mobileMeta}>{account.holderName}</span>
+                  <span>Saldo: {formatCurrency(account.balance)}</span>
+                  <small>
+                    Último acesso:{" "}
+                    {account.lastAccess
+                      ? formatDateTime(account.lastAccess)
+                      : "Sem acesso"}
+                  </small>
+                </article>
+              ))}
+            </div>
           </div>
         </section>
       ) : null}
@@ -191,6 +207,20 @@ export function AdminDashboard({
                 ))}
               </tbody>
             </table>
+
+            <div className={styles.mobileList}>
+              {globalTransactions.map((transaction) => (
+                <article key={transaction.id} className={styles.mobileCard}>
+                  <strong>{formatOperation(transaction.type)}</strong>
+                  <span className={styles.mobileMeta}>
+                    Conta {transaction.accountNumber} · {transaction.holderName}
+                  </span>
+                  <span>{formatCurrency(transaction.amount)}</span>
+                  <small>{formatDateTime(transaction.createdAt)}</small>
+                  <small>{transaction.description}</small>
+                </article>
+              ))}
+            </div>
           </div>
         </section>
       ) : null}
