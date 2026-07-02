@@ -47,7 +47,7 @@ Acesse a versão publicada:
 🔗 https://sistema-bancario-python.vercel.app
 
 ---
-=======
+
 # Sistema Bancário Web
 
 Versão web do projeto original em Python + Tkinter, recriada com React e Vite para publicação online e apresentação em portfólio.
