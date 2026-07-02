@@ -103,7 +103,7 @@ O projeto desktop original foi preservado na pasta `Sistema-Bancario-Tkinter/`. 
 * Visualização de contas cadastradas
 * Busca por nome ou número da conta
 * Controle geral do sistema
-=======
+
 - React 18
 - Vite
 - CSS Modules
